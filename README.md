@@ -43,7 +43,7 @@ docker-compose up --build
 ```
 
 3. Acesse:
-- API: http://localhost:5000/swagger
+- API: http://localhost:5242/swagger
 - Mongo Express: http://localhost:8081
 
 ---
