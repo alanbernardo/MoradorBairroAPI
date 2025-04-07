@@ -1,6 +1,6 @@
 # 🏙️ MoradorBairroAPI - Cidades Inteligentes
 
-Este projeto é uma API desenvolvida em C# (.NET 9) com integração ao MongoDB, como parte do desafio da fase "Navegando pelo mundo DevOps" da disciplina FIAP do curso de Análise e Desenvolvimento de Sistemas.
+Este projeto é uma API desenvolvida em C# (.NET 9) com integração ao MongoDB, como parte do desafio da fase "Navegando pelo mundo DevOps" da disciplina, solicitado pela FIAP do curso de Análise e Desenvolvimento de Sistemas.
 
 ---
 
