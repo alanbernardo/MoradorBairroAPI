@@ -1,0 +1,32 @@
+name: CI/CD Pipeline - MoradorBairroAPI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Clonar repositório
+      uses: actions/checkout@v3
+
+    - name: 🧰 Instalar .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '9.0.x'
+
+    - name: ⚙️ Restaurar dependências
+      run: dotnet restore
+
+    - name: 🛠️ Compilar projeto
+      run: dotnet build --no-restore
+
+    - name: 🧪 Testar aplicação (placeholder)
+      run: echo "Sem testes automatizados ainda"
+
+    - name: 🐳 Build da imagem Docker
+      run: docker build -t moradorbairroapi .
