@@ -1,0 +1,6 @@
+@MoradorBairroAPI_HostAddress = http://localhost:5242
+
+GET {{MoradorBairroAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
